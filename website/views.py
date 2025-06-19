@@ -1,11 +1,11 @@
 """Views for the EchoPulse website Django application."""
 
 from django.shortcuts import render, redirect
-from django.contrib.auth import authenticate, login, logout
+from django.contrib.auth import login, logout
 from django.contrib.auth.forms import AuthenticationForm, UserCreationForm
-from django.contrib.auth.decorators import login_required
 from django.views.decorators.csrf import csrf_exempt
 from .models import Event
+from website.models import Album, Event, UserFavoriteAlbum
 
 
 def home(request):
