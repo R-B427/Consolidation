@@ -40,3 +40,8 @@ Whether you're promoting your band or building a fanbase, EchoPulse helps manage
    ```bash
    git clone https://github.com/R-B427/echopulse.git
    cd echopulse
+
+
+### Credits
+Developed By R.Brown
+Github: https://github.com/R-B427/EchoPulse
